@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/TianyiShan/Documents/LuoGu/main.cpp">
+		<Unit filename="/Users/TianyiShan/Documents/LuoGu/herb.cpp">
 			<Option target="LuoGu"/>
 		</Unit>
 		<Unit filename="/Users/TianyiShan/Documents/LuoGu/CMakeLists.txt">

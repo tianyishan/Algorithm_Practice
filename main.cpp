@@ -1,36 +1,36 @@
 #include <iostream>
 #include <cstdio>
 
-using namespace std;
 
-int timecost[105], prices[105], F[1005] = {0};
-int maxnum = 0;
+using namespace std;
 int main() {
     int totalTime, totalHerb;
     scanf("%d %d", &totalTime, &totalHerb);
-
+    int cost[105];
+    int prices[105];
     for (int i = 1; i <= totalHerb; i++){
-        scanf("%d %d", &timecost[i], &prices[i]);
+        scanf("%d %d", &cost[i], &prices[i]);
     }
-
-    /*for(int z = 0; z < 1005; z++){
+    int F[105][1005];
+    for(int z = 0; z < 1005; z++){
         F[0][z] = 0;
-    }*/
+    }
 
     for (int i = 1; i <= totalHerb ; i++){
+        for(int v = 0; v < cost[i] ;  v++){
+            F[i][v] = F[i-1][v];
 
-        for(int v = totalTime; v >= timecost[i]; v--) {
-            F[v] = max(F[v],F[v-timecost[i]] + prices[i]);
         }
-//        for(int v = timecost[i]; v<=totalTime; v++){
-//            int tmp = F[i-1][v-timecost[i]] + prices[i];
-//            int tmp1 = F[i-1][v];
-//            F[i][v] = max(tmp,tmp1);
-//        }
+        for(int v = cost[i]; v<=totalTime; v++){
+
+            int tmp = F[i-1][v-cost[i]] + prices[i];
+            int tmp1 = F[i-1][v];
+            F[i][v] = max(tmp,tmp1);
+        }
 
     }
 
-    int i = F[totalTime];
+    int i = F[totalHerb][totalTime];
     printf("%d\n", i);
 
 

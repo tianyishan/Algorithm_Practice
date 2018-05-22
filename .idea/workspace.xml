@@ -11,7 +11,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ddf93a8-ff00-41f4-ab3b-92beac294226" name="Default" comment="" />
+    <list default="true" id="6ddf93a8-ff00-41f4-ab3b-92beac294226" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LuoGu.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LuoGu.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LuoGu.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,10 +38,22 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="herb.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/herb.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#46#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +108,9 @@
       <find>vla</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -91,6 +118,7 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/01maze.cpp" />
         <option value="$PROJECT_DIR$/01maze.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/herb.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -110,6 +138,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -122,11 +151,6 @@
             <path>
               <item name="LuoGu" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuoGu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuoGu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuoGu" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,27 +204,27 @@
       <workItem from="1526796022484" duration="21859000" />
       <workItem from="1526932070582" duration="360000" />
       <workItem from="1526953501758" duration="125000" />
-      <workItem from="1526953965996" duration="6382000" />
+      <workItem from="1526953965996" duration="6805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37935000" />
+    <option name="totallyTimeSpent" value="38358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-47" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.008980454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15689382" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.45958796" weight="0.43683085" />
       <window_info anchor="bottom" id="CMake" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5071315" side_tool="true" visible="true" weight="0.24064171" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002641" side_tool="true" visible="true" weight="0.142246" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48600104" weight="0.18736617" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49973586" weight="0.32941177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49603805" weight="0.20427808" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49286845" visible="true" weight="0.24064171" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49286845" weight="0.24064171" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -213,6 +237,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -392,6 +442,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/herb.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/01maze.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -409,10 +462,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/herb.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#46#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

@@ -57,38 +57,38 @@ include CMakeFiles/LuoGu.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LuoGu.dir/flags.make
 
-CMakeFiles/LuoGu.dir/main.cpp.o: CMakeFiles/LuoGu.dir/flags.make
-CMakeFiles/LuoGu.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/TianyiShan/Documents/LuoGu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LuoGu.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LuoGu.dir/main.cpp.o -c /Users/TianyiShan/Documents/LuoGu/main.cpp
+CMakeFiles/LuoGu.dir/herb.cpp.o: CMakeFiles/LuoGu.dir/flags.make
+CMakeFiles/LuoGu.dir/herb.cpp.o: ../herb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/TianyiShan/Documents/LuoGu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LuoGu.dir/herb.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LuoGu.dir/herb.cpp.o -c /Users/TianyiShan/Documents/LuoGu/herb.cpp
 
-CMakeFiles/LuoGu.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LuoGu.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/TianyiShan/Documents/LuoGu/main.cpp > CMakeFiles/LuoGu.dir/main.cpp.i
+CMakeFiles/LuoGu.dir/herb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LuoGu.dir/herb.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/TianyiShan/Documents/LuoGu/herb.cpp > CMakeFiles/LuoGu.dir/herb.cpp.i
 
-CMakeFiles/LuoGu.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LuoGu.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/TianyiShan/Documents/LuoGu/main.cpp -o CMakeFiles/LuoGu.dir/main.cpp.s
+CMakeFiles/LuoGu.dir/herb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LuoGu.dir/herb.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/TianyiShan/Documents/LuoGu/herb.cpp -o CMakeFiles/LuoGu.dir/herb.cpp.s
 
-CMakeFiles/LuoGu.dir/main.cpp.o.requires:
+CMakeFiles/LuoGu.dir/herb.cpp.o.requires:
 
-.PHONY : CMakeFiles/LuoGu.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/LuoGu.dir/herb.cpp.o.requires
 
-CMakeFiles/LuoGu.dir/main.cpp.o.provides: CMakeFiles/LuoGu.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LuoGu.dir/build.make CMakeFiles/LuoGu.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/LuoGu.dir/main.cpp.o.provides
+CMakeFiles/LuoGu.dir/herb.cpp.o.provides: CMakeFiles/LuoGu.dir/herb.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LuoGu.dir/build.make CMakeFiles/LuoGu.dir/herb.cpp.o.provides.build
+.PHONY : CMakeFiles/LuoGu.dir/herb.cpp.o.provides
 
-CMakeFiles/LuoGu.dir/main.cpp.o.provides.build: CMakeFiles/LuoGu.dir/main.cpp.o
+CMakeFiles/LuoGu.dir/herb.cpp.o.provides.build: CMakeFiles/LuoGu.dir/herb.cpp.o
 
 
 # Object files for target LuoGu
 LuoGu_OBJECTS = \
-"CMakeFiles/LuoGu.dir/main.cpp.o"
+"CMakeFiles/LuoGu.dir/herb.cpp.o"
 
 # External object files for target LuoGu
 LuoGu_EXTERNAL_OBJECTS =
 
-LuoGu: CMakeFiles/LuoGu.dir/main.cpp.o
+LuoGu: CMakeFiles/LuoGu.dir/herb.cpp.o
 LuoGu: CMakeFiles/LuoGu.dir/build.make
 LuoGu: CMakeFiles/LuoGu.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/TianyiShan/Documents/LuoGu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LuoGu"
@@ -99,7 +99,7 @@ CMakeFiles/LuoGu.dir/build: LuoGu
 
 .PHONY : CMakeFiles/LuoGu.dir/build
 
-CMakeFiles/LuoGu.dir/requires: CMakeFiles/LuoGu.dir/main.cpp.o.requires
+CMakeFiles/LuoGu.dir/requires: CMakeFiles/LuoGu.dir/herb.cpp.o.requires
 
 .PHONY : CMakeFiles/LuoGu.dir/requires
 

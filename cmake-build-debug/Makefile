@@ -123,32 +123,32 @@ LuoGu/fast:
 	$(MAKE) -f CMakeFiles/LuoGu.dir/build.make CMakeFiles/LuoGu.dir/build
 .PHONY : LuoGu/fast
 
-main.o: main.cpp.o
+herb.o: herb.cpp.o
 
-.PHONY : main.o
+.PHONY : herb.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/LuoGu.dir/build.make CMakeFiles/LuoGu.dir/main.cpp.o
-.PHONY : main.cpp.o
+herb.cpp.o:
+	$(MAKE) -f CMakeFiles/LuoGu.dir/build.make CMakeFiles/LuoGu.dir/herb.cpp.o
+.PHONY : herb.cpp.o
 
-main.i: main.cpp.i
+herb.i: herb.cpp.i
 
-.PHONY : main.i
+.PHONY : herb.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/LuoGu.dir/build.make CMakeFiles/LuoGu.dir/main.cpp.i
-.PHONY : main.cpp.i
+herb.cpp.i:
+	$(MAKE) -f CMakeFiles/LuoGu.dir/build.make CMakeFiles/LuoGu.dir/herb.cpp.i
+.PHONY : herb.cpp.i
 
-main.s: main.cpp.s
+herb.s: herb.cpp.s
 
-.PHONY : main.s
+.PHONY : herb.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/LuoGu.dir/build.make CMakeFiles/LuoGu.dir/main.cpp.s
-.PHONY : main.cpp.s
+herb.cpp.s:
+	$(MAKE) -f CMakeFiles/LuoGu.dir/build.make CMakeFiles/LuoGu.dir/herb.cpp.s
+.PHONY : herb.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LuoGu"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... herb.o"
+	@echo "... herb.i"
+	@echo "... herb.s"
 .PHONY : help
 
 

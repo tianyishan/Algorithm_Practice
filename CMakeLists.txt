@@ -3,4 +3,4 @@ project(LuoGu)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LuoGu  main.cpp)
+add_executable(LuoGu   herb.cpp)

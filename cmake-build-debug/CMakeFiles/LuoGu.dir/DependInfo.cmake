@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/TianyiShan/Documents/LuoGu/main.cpp" "/Users/TianyiShan/Documents/LuoGu/cmake-build-debug/CMakeFiles/LuoGu.dir/main.cpp.o"
+  "/Users/TianyiShan/Documents/LuoGu/herb.cpp" "/Users/TianyiShan/Documents/LuoGu/cmake-build-debug/CMakeFiles/LuoGu.dir/herb.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
